@@ -1,0 +1,15 @@
+body.index {
+    background-color: #d3ea88
+}
+
+body.about {
+    background-image: url("../images/pika.png")
+}
+
+body.contact {
+    background-color: #f9bdfc
+}
+
+p.about {
+    color: #FFFFFF
+}
