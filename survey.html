@@ -1,23 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-     <style type="text/css">
-    </style>
-    <head>
-        <meta charset="utf-8">
-        <title>Survey??</title>
-    </head>
-	<body>
-		<h1 style="color:#be32df">ALUGaluga</h1>
-        <p>In all honesty I don't know how to embed a survey here yet.</p>
-        <ul>
+<style type="text/css">
+    p.detail {
+        color: #FFFFFF
+    }
+
+    span.name {
+        color: #196175
+    }
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>
+        Survey Reference Site
+    </title>
+
+</head>
+
+<body class="survey">
+    <h4 style="color:#7d0137">
+        <form action="confirmation.html">
+
+            <fieldset>
+                <legend>User Information</legend>
+
+                <label for="email">
+                    Email: <br>
+                    <input type="email" id="email" name="email" required />
+                </label>
+
+
+                <br>
+                <br>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" />
+
+                <br>
+                <br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" />
+
+                <br>
+                <br>
+
+                <label for="birth-date">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday" />
+
+                <br>
+                <br>
+
+
+                <label for="tel">
+                    Phone Number: <br>
+                    <!-- On mobile phones this will bring up the numberpad -->
+                    <input type="tel" id="tel" name="tel" required>
+                </label>
+
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Profile</legend>
+
+                <label for="profile-photo">Profile Image:</label>
+                <input type="file" id="profile-photo" name="profile-photo">
+
+                <br>
+                <br>
+
+                <label for="profile-photo">Banner Image:</label>
+                <input type="file" id="banner-photo" name="banner-photo">
+
+                <br>
+                <br>
+
+                <label for="bio">
+                    About Me: <br>
+                    <textarea name="bio" id="bio" cols="88" rows="5" maxlength="2000">Enter up to 2000 characters...</textarea>
+                </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Activity</legend>
+                <select name="activity">
+                    <option value="online">Online</option>
+                    <option value="dnd">Busy</option>
+                    <option value="away">Away</option>
+                    <option value="offline">Offline</option>
+                </select>
+                <label for="status">
+                    Custom Status: <br>
+                    <textarea name="status" id="status" cols="88" maxlength="100">Enter up to 100 characters...</textarea>
+                </label>
+                <label for="status-duration">Status Duration:</label>
+                <select name="status-duration">
+                    <option value="day-length">24 hour(s)</option>
+                    <option value="half-day-length">12 hour(s)</option>
+                    <option value="hour-length">1 hour(s)</option>
+                </select>
+
+                <br>
+                <br>
+
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" name="clear" value="Clear Page (not functional)">
+            <input type="submit" name="submit" value="Sign Up (broken link...)">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <li>
                 <a href="index.html">Go back to the index</a>
             </li>
-            <li>qwerty</li>
-            <li>qwerty</li>
-            <li>qwerty</li>
-            <li>qwerty</li>
-            <li>qwerty</li>
-        </ul>
-	</body>
-</html>
+        </form>
+        <html lang="en">
+        <style type="text/css">
+            p.detail {
+                color: #FFFFFF
+            }
+
+            span.name {
+                color: #196175
+            }
+
+        </style>
+
+        <head>
+            <meta charset="utf-8">
+            <title>About Daniel H.</title>
+            <link rel="stylesheet" href="styles/styles.css">
+        </head>
+
+        <body class="about">
+
+
+        </body>
+
+        </html>
